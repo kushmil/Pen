@@ -181,13 +181,13 @@
   <main class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-8 md:py-16 flex-grow">
 
     <!-- VIEW 1: HOME PAGE -->
-    <div id="view-home" class="spa-view active-view space-y-24">
+    <div id="view-home" class="spa-view active-view space-y-12">
       
       <!-- HERO BANNER -->
       <section class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div class="lg:col-span-7 space-y-6">
           <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-lavender text-obsidian font-black text-xs rounded-full uppercase tracking-widest">
-            <span class="w-2.5 h-2.5 rounded-full bg-cherry animate-pulse"></span> REGISTRY ONLINE
+            <span class="w-2.5 h-2.5 rounded-full bg-cherry animate-pulse"></span> REGISTRY ONLINE (100% FREE)
           </span>
           <h1 class="text-5xl sm:text-6xl md:text-7xl tracking-tight leading-none font-black">
             Permanent <br>Education <span class="underline decoration-cherry">Number</span> (PEN).
@@ -205,7 +205,7 @@
           </div>
         </div>
 
-        <!-- HERO CARDS -->
+        <!-- HERO CARDS (Updated: No Terms, Completely Free) -->
         <div class="lg:col-span-5 grid grid-cols-1 gap-6">
           <!-- Lavender Card -->
           <div class="color-card-border bg-lavender text-obsidian p-8 rounded-3xl shadow-sm transform rotate-1 hover:rotate-0 transition-all duration-300">
@@ -213,9 +213,8 @@
               <span class="text-xs font-black tracking-widest uppercase">CLASS XI FILINGS</span>
               <span class="text-xs font-black tracking-widest uppercase">PRIMARY</span>
             </div>
-            <h2 class="text-4xl mb-6 tracking-wide font-black">FEE ₹1,000</h2>
-            <div class="grid grid-cols-3 gap-2 text-[10px] uppercase font-black border-t border-black/15 pt-4">
-              <div><span>TERM</span><p class="font-bold text-sm pt-1">1 YEAR</p></div>
+            <h2 class="text-4xl mb-6 tracking-wide font-black">FEE: ₹0 (FREE)</h2>
+            <div class="grid grid-cols-2 gap-2 text-[10px] uppercase font-black border-t border-black/15 pt-4">
               <div><span>RECORDS</span><p class="font-bold text-sm pt-1">MAPPED</p></div>
               <div><span>STATUS</span><p class="font-bold text-sm pt-1">REQUIRED</p></div>
             </div>
@@ -227,14 +226,26 @@
               <span class="text-xs font-black tracking-widest uppercase text-white/80">CLASS XII FILINGS</span>
               <span class="text-xs font-black tracking-widest uppercase text-white/80">SECONDARY</span>
             </div>
-            <h2 class="text-4xl mb-6 tracking-wide font-black text-white">FEE ₹500</h2>
-            <div class="grid grid-cols-3 gap-2 text-[10px] uppercase font-black border-t border-white/20 pt-4">
-              <div><span>TERM</span><p class="font-bold text-sm pt-1 text-white">1 YEAR</p></div>
+            <h2 class="text-4xl mb-6 tracking-wide font-black text-white">FEE: ₹0 (FREE)</h2>
+            <div class="grid grid-cols-2 gap-2 text-[10px] uppercase font-black border-t border-white/20 pt-4">
               <div><span>STATUS</span><p class="font-bold text-sm pt-1 text-white">CRITICAL</p></div>
               <div><span>TIMELINE</span><p class="font-bold text-sm pt-1 text-white">15+ DAYS</p></div>
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- SECURITY WARNING NOTICE SECTION -->
+      <section class="glass-card p-6 sm:p-8 rounded-3xl border-l-8 border-l-cherry bg-cherry/5 space-y-3 shadow-md">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-cherry text-cream rounded-full flex items-center justify-center">
+            <i data-lucide="shield-alert" class="w-5 h-5"></i>
+          </div>
+          <h4 class="text-lg font-black text-cherry uppercase">Official Security Notice</h4>
+        </div>
+        <p class="text-sm opacity-90 leading-relaxed font-bold">
+          PEN number completely free main bnaya jata hai. Agar kisi ke dwara iske liye aapse koi bhi paisa charge kiya ja raha hai, to kripya iski complaint turant hamare official email <a href="mailto:vitcoore@gmail.com" class="underline font-black text-cherry">vitcoore@gmail.com</a> par karein. PEN number bnane me koi bhi paisa nahi lagta hai.
+        </p>
       </section>
 
       <!-- TIMELINE BANNER -->
@@ -332,11 +343,11 @@
         <div class="max-w-3xl mx-auto space-y-4">
           <details class="glass-card p-6 rounded-2xl group cursor-pointer transition-all">
             <summary class="flex justify-between items-center font-extrabold text-lg list-none">
-              <span>Why is there a discrepancy between Class 11 & Class 12 fees?</span>
+              <span>Is there any charge for Class 11 & Class 12 registration?</span>
               <span class="transition-transform group-open:rotate-180"><i data-lucide="chevron-down"></i></span>
             </summary>
             <p class="mt-4 text-sm opacity-80 leading-relaxed">
-              Class 11 registrations encompass fresh structural initialization fees and database record allocation overheads. Class 12 applicants already have active preliminary indexing keys, requiring only maintenance transfers.
+              No. Permanent Education Number (PEN) registration is completely free of cost (₹0) for both Class XI and XII. If any institution or person requests payment for this service, please report them to vitcoore@gmail.com immediately.
             </p>
           </details>
 
@@ -355,10 +366,23 @@
     </div>
 
     <!-- VIEW 2: APPLY PORTAL -->
-    <div id="view-apply" class="spa-view space-y-12">
+    <div id="view-apply" class="spa-view space-y-8">
       <div class="text-center max-w-2xl mx-auto space-y-4">
         <h2 class="text-4xl md:text-5xl font-black">Registry Enrollment Workspace</h2>
         <p class="opacity-75 text-sm">Secure your Permanent Education Number below. Your verified card preview renders instantly.</p>
+      </div>
+
+      <!-- APPLY PAGE SECURITY WARNING NOTICE -->
+      <div class="glass-card p-6 rounded-3xl border-l-8 border-l-cherry bg-cherry/5 space-y-3 shadow-sm max-w-7xl mx-auto">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-cherry text-cream rounded-full flex items-center justify-center">
+            <i data-lucide="shield-alert" class="w-5 h-5"></i>
+          </div>
+          <h4 class="text-lg font-black text-cherry uppercase">Official Security Alert</h4>
+        </div>
+        <p class="text-sm opacity-90 leading-relaxed font-bold">
+          PEN number completely free main bnaya jata hai. Agar kisi ke dwara iske liye aapse koi bhi paisa charge kiya ja raha hai, to kripya iski complaint turant hamare official email <a href="mailto:vitcoore@gmail.com" class="underline font-black text-cherry">vitcoore@gmail.com</a> par karein. PEN number bnane me koi bhi paisa nahi lagta hai.
+        </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -409,12 +433,12 @@
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <!-- Class Selector -->
+              <!-- Class Selector (All free) -->
               <div class="space-y-2">
                 <label class="text-xs uppercase tracking-wider font-extrabold">Academic Class *</label>
                 <select id="studentClass" onchange="handleClassStreamChange()" class="w-full px-4 py-3.5 rounded-xl border bg-[var(--input-bg)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-lavender font-extrabold transition-all">
-                  <option value="XI">Class XI (Fee: ₹1,000)</option>
-                  <option value="XII">Class XII (Fee: ₹500)</option>
+                  <option value="XI">Class XI (Fee: ₹0 - Free)</option>
+                  <option value="XII">Class XII (Fee: ₹0 - Free)</option>
                 </select>
               </div>
 
@@ -437,11 +461,11 @@
               </div>
             </div>
 
-            <!-- Computed Dynamic Invoice Display -->
+            <!-- Computed Dynamic Invoice Display (Fee ₹0 / Free always) -->
             <div class="p-6 rounded-2xl bg-obsidian text-cream flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
               <div>
                 <span class="text-[10px] uppercase opacity-70 tracking-widest block font-extrabold">ADMINISTRATIVE FILING FEE</span>
-                <span id="calculatedFeeDisplay" class="font-black text-3xl text-lime">₹1,000</span>
+                <span id="calculatedFeeDisplay" class="font-black text-3xl text-lime">₹0 (FREE)</span>
               </div>
               <div class="text-left sm:text-right">
                 <span class="text-[10px] uppercase opacity-70 tracking-widest block font-extrabold">PROCESSING TARGET</span>
@@ -483,7 +507,7 @@
         <div class="lg:col-span-5 lg:sticky lg:top-28 space-y-6">
           <h3 class="text-lg font-black uppercase tracking-wider text-center lg:text-left">Dynamic Identification Preview</h3>
 
-          <!-- Physical Mock Card Layout (Optimized & Fixed theme colors) -->
+          <!-- Physical Mock Card Layout -->
           <div id="liveColorCard" class="color-card-border p-6 sm:p-8 rounded-3xl shadow-xl transition-all duration-300 bg-lavender text-obsidian relative overflow-hidden">
             <div class="absolute -right-20 -bottom-20 w-48 h-48 rounded-full bg-white/10 pointer-events-none"></div>
 
@@ -497,13 +521,13 @@
 
             <h2 id="cardStudentName" class="text-2xl sm:text-3xl mb-4 tracking-tight font-black truncate max-w-full">AARAV SHARMA</h2>
 
-            <!-- NEW: PEN NUMBER PREVIEW SECTION -->
+            <!-- PEN NUMBER PREVIEW SECTION -->
             <div class="mb-6 p-4 rounded-2xl bg-black/10 dark:bg-white/10 border border-black/10 dark:border-white/10">
               <span class="text-[9px] font-black tracking-widest uppercase opacity-60 block">PERMANENT EDUCATION NUMBER (PEN)</span>
               <p class="text-xl font-mono tracking-widest font-black pt-1">22039******</p>
             </div>
 
-            <!-- Grid Layout Parameters -->
+            <!-- Grid Layout Parameters (Cleaned Term parameters) -->
             <div class="grid grid-cols-1 gap-4 border-t border-black/10 pt-4">
               <div class="grid grid-cols-2 gap-4 text-[10px] uppercase font-black">
                 <div>
@@ -546,7 +570,7 @@
       </div>
     </div>
 
-    <!-- VIEW 3: DEDICATED SETTINGS STUDIO (ULTRA DETAILED) -->
+    <!-- VIEW 3: DEDICATED SETTINGS STUDIO -->
     <div id="view-settings" class="spa-view space-y-12">
       <div class="text-center max-w-2xl mx-auto space-y-4">
         <h2 class="text-4xl md:text-5xl font-black">Interactive Portal Settings</h2>
@@ -822,7 +846,7 @@
       });
     }
 
-    // FIXED: Dynamic Card background color setups using mapped tailwind config classes
+    // Dynamic Card background color setups using mapped tailwind config classes
     const cardBgPresets = {
       lavender: { bg: 'bg-lavender', text: 'text-obsidian', swatchBorder: 'border-lavender' },
       obsidian: { bg: 'bg-obsidian', text: 'text-cream', swatchBorder: 'border-obsidian' },
@@ -864,9 +888,8 @@
       const studentClass = document.getElementById('studentClass').value;
       const studentStream = document.getElementById('studentStream').value;
 
-      // Update fee logic Class XI = 1k, XII = 500
-      const calculatedFee = studentClass === 'XI' ? 1000 : 500;
-      document.getElementById('calculatedFeeDisplay').innerText = `₹${calculatedFee.toLocaleString('en-IN')}`;
+      // FIXED: Always set calculation and text display to Free (₹0)
+      document.getElementById('calculatedFeeDisplay').innerText = `₹0 (FREE)`;
 
       // Populate checklist
       const wrapper = document.getElementById('subjectWrapper');
@@ -914,7 +937,7 @@
 
       Swal.fire({
         title: 'Submit Academic Registry?',
-        text: `Proceed to generate email with your student records. The email client will open automatically. It's completely free to register!`,
+        text: `Permanent Education Number (PEN) application is 100% free (₹0). Email client will open automatically to complete the submission.`,
         icon: 'info',
         showCancelButton: true,
         confirmButtonColor: '#D86072',
@@ -929,7 +952,7 @@
       });
     }
 
-    // FIXED: Real free form submission that auto-fills email with values
+    // Dynamic Email Draft compilation (Always free ₹0)
     function executeRegistryFlow() {
       const name = document.getElementById('studentName').value;
       const mobile = document.getElementById('studentMobile').value;
@@ -941,12 +964,12 @@
       const studentStream = document.getElementById('studentStream').value;
       
       const checkedSubjects = Array.from(document.querySelectorAll('input[name="subjectCheck"]:checked')).map(cb => cb.value);
-      const calculatedFee = studentClass === 'XI' ? '₹1,000' : '₹500';
+      const calculatedFee = '₹0 (FREE)';
 
       const recipient = 'vitcoore@gmail.com';
       const subject = `VITCOORE PEN Registration Form - ${name.toUpperCase()} (Class ${studentClass})`;
       
-      // Auto-formatted mail content body
+      // Email content body
       const emailBody = `Dear VITCOORE Studio,
 
 Please find my completed Permanent Education Number (PEN) Hub enrollment form details listed below:
@@ -965,7 +988,7 @@ Stream Group Selected: ${studentStream}
 Subject Verification Checklist: ${checkedSubjects.join(', ')}
 
 -- REGISTRATION PROFILE VALUES --
-Target Processing Fee: ${calculatedFee} (Submitted Free of Charge)
+Target Processing Fee: ${calculatedFee}
 Processing Timeline: 15 to 25 Business Days
 
 Please queue my dynamic profile registration into the database records. 
